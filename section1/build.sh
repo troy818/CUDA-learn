@@ -1,1 +1,1 @@
-nvcc -o cuda_learn -arch=sm_35 4_hello_cuda.cu -L/usr/local/cuda/lib64 -lcudart -gencode arch=compute_35,code=sm_35
+nvcc -o cuda_learn -arch=compute_60 -code=compute_60,sm_60 4_hello_cuda.cu
